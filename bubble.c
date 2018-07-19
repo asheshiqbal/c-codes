@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i, j, n=10, min, tmp;
+    int i, j, n=10, tmp;
     int a[10];
     for(i=0;i<n;i++)
     {
@@ -30,11 +30,11 @@ int main()
     printf("\n");
     for(i=0;i<n;i++)
     {
-        if(i!=n-1 && a[i]>a[i+1])
+        /*if(i!=n-1 && a[i]>a[i+1])
         {
             printf("Wrong!!!");
             return;
-        }
+        }*/
         printf("%d ", a[i]);
     }
 }
