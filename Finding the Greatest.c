@@ -1,4 +1,4 @@
-// Greatest from three
+// Finding the greatest from three numbers
 
 #include<stdio.h>
 
@@ -15,7 +15,8 @@ int main()
     else if((c>a)&&(c>b))
         printf("%d", c);
     
-    /*if(a > b)
+    /* Alternative:
+    if(a > b)
     {
         if(c > a)
         {
@@ -27,5 +28,6 @@ int main()
     {
         printf("%d", c);
     }
-    else printf("%d", b);*/
+    else printf("%d", b);
+    */
 }
