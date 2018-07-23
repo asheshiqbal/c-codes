@@ -1,4 +1,4 @@
-// Fibonacci
+// Fibonacci Series Generator
 
 #include<stdio.h>
 
