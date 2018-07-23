@@ -1,14 +1,8 @@
-// sine (x)
-
-
-
+// Sine (Trigonometric series)
 
 #include <stdio.h>
 
-
-
 int main()
-
 {
 	int i, n = 4, deg;
 	float r, x, term ;
