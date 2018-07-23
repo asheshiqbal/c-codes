@@ -1,3 +1,5 @@
+// Check the input to be a valid IPv4 address
+
 #include<stdio.h>
 #include<string.h>
 
@@ -5,10 +7,10 @@ int main()
 {
 	int i, j, n, l, flag = 1;
 	char a[15];
-
-    scanf("%s", a); // In case of string input, & is not mandatory
-    
-    l = strlen(a);
+	
+	scanf("%s", a); // In case of string input, & is not mandatory
+	
+	l = strlen(a);
 	printf("%d\n", l);
 	
  	for(i=0; i<l; i++)
@@ -27,6 +29,5 @@ int main()
  	{
  	    printf("INVALID");
  	}
- 	else printf("VALID");
-
+ 	else printf("PRIMARILY VALID...PROCEEDING WITH DETAIL VERIFICATION");
 }
