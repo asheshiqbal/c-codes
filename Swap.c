@@ -12,5 +12,3 @@ int main()
     a = a - b;
     printf("a = %d, b = %d", a, b);
 }
-
-
