@@ -19,7 +19,7 @@ int main()
  	    // Sol 2:
  	    if((a[i]<'0' || a[i]>'9') && a[i]!='.') // when a[i] is '.', if(1 and 0) = if(0); so if is skipped
  	                                            // when 0<=a[i]<=9, if(0 and 1) = if(0); so if is skipped
- 	                                            // when a[i] is any other chracter, if(1 and 1) = if(1); so if is executed
+ 	                                            // when a[i] is any other character, if(1 and 1) = if(1); so if is executed
  	    {
  	        flag = 0;
  	        break; 
